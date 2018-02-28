@@ -22,6 +22,7 @@ ul {
 
 p {
   text-align: justify;
+  padding: 5px;
 }
 
 body {
@@ -29,6 +30,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300; /* if you want the light version */
   margin: 30px
+  background-image:
 }
 
 h1, h2, h3 {
@@ -106,4 +108,27 @@ img.resize {
 
 .icons-social {
   font-size: 40px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 180px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(232, 232, 232);
+  box-shadow: 3px 3px 2px rgb(210, 210, 210);
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#page-content {
+  margin-left: 150px;
+}
+
+.icon {
+  padding-top: 30px;
 }

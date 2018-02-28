@@ -9,13 +9,24 @@
 </head>
 
 <body>
+  <div id = "sidebar">
+    <ul class = "list-sidebar text-center">
+      <li> <a href="#summary"><i class="fas fa-user icon"></i> </br> Summary </a>
+      </li>
+      <li> <a href="#favorite-movies"><i class="fas fa-film icon"></i> </br> Movies</a>
+      </li>
+      <li> <a href="#help"><i class="fas fa-question-circle icon"></i> </br> Info</a>
+      </li>
+    </ul>
+  </div>
+
   <div class= "container" >
     <div class= "card text-center" >
       <img src="images/profile_pic.jpg" alt="Raoul Gauthier" width="150" id="Avatar">
       <h1>Raoul Gauthier</h1>
       <h3>CEO @Casimodo </h3>
 
-      <p>
+      <p id="summary">
         After 5 years at University of Brussels, I got bored and launched Casimodo. Our mission: <strong> Ease the return to normalcy of victims post home damages</strong>.
       </p>
       <a href="https://casimodo.fr" class= "btn-red" >See for yourself</a>
@@ -35,10 +46,10 @@
         </a>
       </li>
     </ul>
-</div>
+  </div>
 
   <div class= "card" >
-    <h2 class="text-center text-justify">My Favorite movies </h2>
+    <h2 class="text-center text-justify" id="favorite-movies"><center> My Favorite movies </center></h2>
 
     <table>
       <tbody>
@@ -73,27 +84,27 @@
     </table>
   </div>
 
-  <h2 class="text-center">About this page</h2>
+  <h2 class="text-center" id="help">About this page</h2>
   This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
-<div class="inline-block text-center">
-  <ul class="list-inline">
-   <li>
-     <a href="#">
-       <i class="fa fa-heart icons-social "></i>
-     </a>
-   </li>
-   <li>
-     <a href="#">
-       <i class="fa fa-share icons-social "></i>
-     </a>
-   </li>
-   <li>
-     <a href="#">
-       <i class="fa fa-star icons-social "></i>
-     </a>
-   </li>
- </ul>
-</div>
+  <div class="inline-block text-center">
+    <ul class="list-inline">
+     <li>
+       <a href="#">
+         <i class="fa fa-heart icons-social "></i>
+       </a>
+     </li>
+     <li>
+       <a href="#">
+         <i class="fa fa-share icons-social "></i>
+       </a>
+     </li>
+     <li>
+       <a href="#">
+         <i class="fa fa-star icons-social "></i>
+       </a>
+     </li>
+   </ul>
+ </div>
 </div>
 </body>
 </html>
